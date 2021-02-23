@@ -1,0 +1,23 @@
+{
+  "color": {
+    "neutral": {
+      "light": {
+        "00": {
+          "value": "#FFFFFF"
+        },
+        "05": {
+          "value": "#F7F7F8"
+        },
+        "10": {
+          "value": "#ECEDEE"
+        },
+        "20": {
+          "value": "#D2D3D6"
+        },
+        "30": {
+          "value": "#AFB0B3"
+        }
+      }
+    }
+  }
+}
