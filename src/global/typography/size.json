@@ -1,0 +1,30 @@
+{
+  "font": {
+    "size": {
+      "xs": {
+        "value": "0.75 rem"
+      },
+      "sm": {
+        "value": "0.875 rem"
+      },
+      "default": {
+        "value": "1 rem"
+      },
+      "md": {
+        "value": "1.25 rem"
+      },
+      "lg": {
+        "value": "1.5 rem"
+      },
+      "xl": {
+        "value": "2 rem"
+      },
+      "2xl": {
+        "value": "2.5 rem"
+      },
+      "3xl": {
+        "value": "3 rem"
+      }
+    }
+  }
+}

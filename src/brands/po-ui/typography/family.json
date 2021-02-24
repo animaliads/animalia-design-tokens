@@ -1,0 +1,15 @@
+{
+  "font": {
+    "family": {
+      "heading": {
+        "value": "Roboto"
+      },
+      "text": {
+        "value": "Roboto"
+      },
+      "code": {
+        "value": "Monospace"
+      }
+    }
+  }
+}

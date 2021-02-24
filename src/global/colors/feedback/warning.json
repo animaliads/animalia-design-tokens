@@ -1,0 +1,29 @@
+{
+  "color": {
+    "feedback": {
+      "warning": {
+        "lightest": {
+          "value": "#FCF6E3"
+        },
+        "lighter": {
+          "value": "#F7DD97"
+        },
+        "light": {
+          "value": "#F1CD6A"
+        },
+        "base": {
+          "value": "#EFBA2A"
+        },
+        "dark": {
+          "value": "#D8A20E"
+        },
+        "darker": {
+          "value": "#705200"
+        },
+        "darkest": {
+          "value": "#473400"
+        }
+      }
+    }
+  }
+}
