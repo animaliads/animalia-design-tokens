@@ -1,6 +1,6 @@
 {
   "name": "@po-ds/design-tokens",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Repositório de Design Tokens do PODS",
   "main": "build.js",
   "scripts": {
