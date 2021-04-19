@@ -1,6 +1,6 @@
-# Design Tokens - PODS
+# Design Tokens - Animalia DS
 
-Repositório contendo os tokens globais do PODS.
+Repositório contendo os tokens globais do Animalia DS.
 Também contém os tokens das marcas:
 
 - PO UI
