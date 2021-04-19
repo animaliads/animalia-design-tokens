@@ -1,6 +1,6 @@
 {
   "name": "@animaliads/design-tokens",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "description": "Repositório de Design Tokens do PODS",
   "main": "build.js",
   "tag": "dev",
