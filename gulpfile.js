@@ -16,13 +16,13 @@ function build(cb) {
 
 function copyPackageJson(cb) {
   const packages = [
-    { name: '@po-ds/android-tokens-poc', dest: './dist/global/android', desc: 'Tokens globais do PODS para Android' },
-    { name: '@po-ds/css-tokens-poc', dest: './dist/global/css', desc: 'Tokens globais do PODS em CSS' },
-    { name: '@po-ds/ios-tokens-poc', dest: './dist/global/ios', desc: 'Tokens globais do PODS para IOS' },
-    { name: '@po-ds/ios-swift-tokens-poc', dest: './dist/global/ios-swift', desc: 'Tokens globais do PODS para IOS Swift' },
-    { name: '@po-ds/scss-tokens-poc', dest: './dist/global/scss', desc: 'Tokens globais do PODS em SCSS' },
-    { name: '@po-ds/fluig-tokens-poc', dest: './dist/brands/fluig', desc: 'Tokens de brand do Fluig' },
-    { name: '@po-ds/po-ui-tokens-poc', dest: './dist/brands/po-ui', desc: 'Tokens de brand do PO UI' },
+    { name: '@animaliads/android-tokens', dest: './dist/global/android', desc: 'Tokens globais do PODS para Android' },
+    { name: '@animaliads/css-tokens', dest: './dist/global/css', desc: 'Tokens globais do PODS em CSS' },
+    { name: '@animaliads/ios-tokens', dest: './dist/global/ios', desc: 'Tokens globais do PODS para IOS' },
+    { name: '@animaliads/ios-swift-tokens', dest: './dist/global/ios-swift', desc: 'Tokens globais do PODS para IOS Swift' },
+    { name: '@animaliads/scss-tokens', dest: './dist/global/scss', desc: 'Tokens globais do PODS em SCSS' },
+    { name: '@animaliads/fluig-tokens', dest: './dist/brands/fluig', desc: 'Tokens de brand do Fluig' },
+    { name: '@animaliads/po-ui-tokens', dest: './dist/brands/po-ui', desc: 'Tokens de brand do PO UI' },
   ];
 
   packages.forEach(package => {
