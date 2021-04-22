@@ -1,8 +1,9 @@
 {
-  "name": "@po-ds/design-tokens",
-  "version": "1.0.0-beta.2",
-  "description": "Repositório de Design Tokens do PODS",
+  "name": "@animaliads/design-tokens",
+  "version": "1.0.0-dev.3",
+  "description": "Repositório de Design Tokens do Animalia DS",
   "main": "build.js",
+  "tag": "dev",
   "scripts": {
     "build": "gulp",
     "publish:android": "npm publish dist/global/android",
@@ -10,11 +11,7 @@
     "publish:ios": "npm publish dist/global/ios",
     "publish:ios-swift": "npm publish dist/global/ios-swift",
     "publish:scss": "npm publish dist/global/scss",
-    "publish:fluig": "npm publish dist/brands/fluig",
-    "publish:po-ui": "npm publish dist/brands/po-ui",
-    "publish:global": "npm run publish:android && npm run publish:css && npm run publish:ios && npm run publish:ios-swift && npm run publish:scss",
-    "publish:brands": "npm run publish:fluig && npm run publish:po-ui",
-    "publish:all": "npm run publish:global && npm run publish:brands"
+    "publish:all": "npm run publish:android && npm run publish:css && npm run publish:ios && npm run publish:ios-swift && npm run publish:scss"
   },
   "author": "",
   "license": "MIT",
