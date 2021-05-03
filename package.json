@@ -1,6 +1,6 @@
 {
   "name": "@animaliads/design-tokens",
-  "version": "1.0.0-dev.3",
+  "version": "1.0.0-next.1",
   "description": "Repositório de Design Tokens do Animalia DS",
   "main": "build.js",
   "tag": "dev",
