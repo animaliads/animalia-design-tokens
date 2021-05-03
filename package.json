@@ -1,0 +1,28 @@
+{
+  "name": "@animaliads/design-tokens",
+  "version": "1.0.0-next.1",
+  "description": "Repositório de Design Tokens do Animalia DS",
+  "main": "build.js",
+  "tag": "dev",
+  "scripts": {
+    "build": "gulp",
+    "publish:android": "npm publish dist/global/android",
+    "publish:css": "npm publish dist/global/css",
+    "publish:ios": "npm publish dist/global/ios",
+    "publish:ios-swift": "npm publish dist/global/ios-swift",
+    "publish:scss": "npm publish dist/global/scss",
+    "publish:all": "npm run publish:android && npm run publish:css && npm run publish:ios && npm run publish:ios-swift && npm run publish:scss"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-tap": "^2.0.0",
+    "lodash": "^4.17.20",
+    "style-dictionary": "^2.10.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "color": {
+        "action": {
+            "default": {
+                "value": "{color.brand-01.base.value}"
+            },
+            "hover": {
+                "value": "{color.brand-01.dark.value}"
+            },
+            "pressed": {
+                "value": "{color.brand-01.darker.value}"
+            },
+            "disabled": {
+                "value": "{color.neutral.light.10.value}"
+            },
+            "focus": {
+                "value": "{color.brand-01.base.value}"
+            }
+        }
+    }
+}

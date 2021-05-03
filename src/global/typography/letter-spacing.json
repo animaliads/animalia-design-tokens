@@ -1,0 +1,37 @@
+{
+  "letter-spacing": {
+    "auto": {
+      "value": "auto"
+    },
+    "sp1": {
+      "value": "0.15em"
+    },
+    "sp2": {
+      "value": "0.25em"
+    },
+    "sp3": {
+      "value": "0.5em"
+    },
+    "sp4": {
+      "value": "1.25em"
+    },
+    "sp5": {
+      "value": "1.5em"
+    },
+    "sp-neg-1": {
+      "value": "-0.15em"
+    },
+    "sp-neg-2": {
+      "value": "-0.25em"
+    },
+    "sp-neg-3": {
+      "value": "-0.5em"
+    },
+    "sp-neg-4": {
+      "value": "-1.25em"
+    },
+    "sp-neg-5": {
+      "value": "-1.5em"
+    }
+  }
+}

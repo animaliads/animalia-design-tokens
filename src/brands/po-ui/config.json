@@ -1,0 +1,15 @@
+{
+  "source": ["src/brands/po-ui/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/brands/po-ui/css/",
+      "files": [
+        {
+          "destination": "brand-tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

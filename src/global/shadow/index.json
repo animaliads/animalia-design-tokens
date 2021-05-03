@@ -1,0 +1,19 @@
+{
+  "shadow": {
+    "none": {
+      "value": "0 0 0 rgb(255, 255, 255)"
+    },
+    "sm": {
+      "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.1)"
+    },
+    "md": {
+      "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.1)"
+    },
+    "lg": {
+      "value": "0 6px 12px 0 rgba(0, 0, 0, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.1)"
+    },
+    "xl": {
+      "value": "0 16px 24px 0 rgba(0, 0, 0, 0.1), 0 0 3px 0 rgba(0, 0, 0, 0.1)"
+    }
+  }
+}
