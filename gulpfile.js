@@ -3,8 +3,9 @@ const { series, src, dest } = require('gulp');
 const tap = require('gulp-tap');
 const del = require('del');
 const { generateTokens } = require('./build');
+const config = require('./config.json');
 
-function clean (cb) {
+function clean(cb) {
   del.sync('./dist');
   cb();
 }
@@ -16,36 +17,60 @@ function build(cb) {
 
 function copyPackageJson(cb) {
   const packages = [
-    { name: '@animaliads/android-tokens', dest: './dist/global/android', desc: 'Tokens globais do Animalia DS para Android' },
-    { name: '@animaliads/css-tokens', dest: './dist/global/css', desc: 'Tokens globais do Animalia DS em CSS' },
-    { name: '@animaliads/ios-tokens', dest: './dist/global/ios', desc: 'Tokens globais do Animalia DS para IOS' },
-    { name: '@animaliads/ios-swift-tokens', dest: './dist/global/ios-swift', desc: 'Tokens globais do Animalia DS para IOS Swift' },
-    { name: '@animaliads/scss-tokens', dest: './dist/global/scss', desc: 'Tokens globais do Animalia DS em SCSS' },
-    { name: '@animaliads/fluig-tokens', dest: './dist/brands/fluig', desc: 'Tokens de brand do Fluig' },
-    { name: '@animaliads/po-ui-tokens', dest: './dist/brands/po-ui', desc: 'Tokens de brand do PO UI' },
+    { 
+      name: '@animaliads/android-tokens', 
+      dest: './dist/android', 
+      desc: 'Tokens globais do Animalia DS para Android',
+      main: config.platforms.android.files[0].destination
+    },
+    { 
+      name: '@animaliads/css-tokens', 
+      dest: './dist/css', 
+      desc: 'Tokens globais do Animalia DS em CSS',
+      main: config.platforms.css.files[0].destination
+    },
+    { 
+      name: '@animaliads/ios-tokens', 
+      dest: './dist/ios', 
+      desc: 'Tokens globais do Animalia DS para IOS',
+      main: config.platforms.ios.files[0].destination
+    },
+    { 
+      name: '@animaliads/ios-swift-tokens', 
+      dest: './dist/ios-swift', 
+      desc: 'Tokens globais do Animalia DS para IOS Swift',
+      main: config.platforms['ios-swift'].files[0].destination
+    },
+    { 
+      name: '@animaliads/scss-tokens', 
+      dest: './dist/scss', 
+      desc: 'Tokens globais do Animalia DS em SCSS',
+      main: config.platforms.scss.files[0].destination
+    },
   ];
-
+  
   packages.forEach(package => {
     src('package.json')
     .pipe(
       tap(file => {
         const contents = JSON.parse(file.contents.toString());
-
+        
         delete contents.devDependencies;
         delete contents.scripts;
-
+        
         contents.name = package.name;
+        contents.main = package.main;
         contents.description = package.desc;
-
+        
         file.contents = Buffer.from(JSON.stringify(contents, null, 2), 'utf-8');
       })
-    )
-    .pipe(dest(package.dest));
-  });
+      )
+      .pipe(dest(package.dest));
+    });
+    
+    cb();
+    
+  }
   
-  cb();
-
-}
-
-exports.build = build;
-exports.default = series(clean, build, copyPackageJson);
+  exports.build = build;
+  exports.default = series(clean, build, copyPackageJson);
