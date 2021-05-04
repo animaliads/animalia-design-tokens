@@ -6,11 +6,11 @@
   "tag": "dev",
   "scripts": {
     "build": "gulp",
-    "publish:android": "npm publish dist/global/android",
-    "publish:css": "npm publish dist/global/css",
-    "publish:ios": "npm publish dist/global/ios",
-    "publish:ios-swift": "npm publish dist/global/ios-swift",
-    "publish:scss": "npm publish dist/global/scss",
+    "publish:android": "npm publish dist/android",
+    "publish:css": "npm publish dist/css",
+    "publish:ios": "npm publish dist/ios",
+    "publish:ios-swift": "npm publish dist/ios-swift",
+    "publish:scss": "npm publish dist/scss",
     "publish:all": "npm run publish:android && npm run publish:css && npm run publish:ios && npm run publish:ios-swift && npm run publish:scss"
   },
   "author": "",

@@ -1,12 +1,6 @@
 # Design Tokens - Animalia DS
 
 Repositório contendo os tokens globais do Animalia DS.
-Também contém os tokens das marcas:
-
-- PO UI
-- Fluig
-
-**Esses design tokens fazem parte de um teste piloto e não tem relação direta com as marcas.**
 
 ## Gerando os tokens
 
@@ -20,32 +14,16 @@ Depois de executar, deverá ser criado um novo repositório chamado `dist/`, com
 
 ```
 dist
-│  
-└───brands
-│   │
-│   └───fluig
-│   |   |   package.json
-|   |   |
-│   |   └───css
-|   |   |
-│   |   └───scss
-|   | 
-│   └───po-ui
-│       |   package.json
-|       |
-│       └───css
-│   
-└───global
-    │
-    └───android
-    |
-    └───css 
-    |
-    └───ios
-    |
-    └───ios-swift
-    |
-    └───scss
+  │
+  └───android
+  |
+  └───css 
+  |
+  └───ios
+  |
+  └───ios-swift
+  |
+  └───scss
 ```
 
 Nesta estrutura também será gerado cada arquivo `package.json` para publicação individual dos pacotes. 

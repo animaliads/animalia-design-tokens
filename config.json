@@ -1,9 +1,9 @@
 {
-  "source": ["src/global/**/*.json"],
+  "source": ["src/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "dist/global/css/",
+      "buildPath": "dist/css/",
       "files": [{
         "destination": "global-tokens.css",
         "format": "css/variables"
@@ -11,7 +11,7 @@
     },
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "dist/global/scss/",
+      "buildPath": "dist/scss/",
       "files": [{
         "destination": "global-tokens.scss",
         "format": "scss/variables"
@@ -19,7 +19,7 @@
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "dist/global/android/",
+      "buildPath": "dist/android/",
       "files": [{
         "destination": "font_dimens.xml",
         "format": "android/fontDimens"
@@ -30,7 +30,7 @@
     },
     "ios": {
       "transformGroup": "ios",
-      "buildPath": "dist/global/ios/",
+      "buildPath": "dist/ios/",
       "files": [{
         "destination": "StyleDictionaryColor.h",
         "format": "ios/colors.h",
@@ -75,36 +75,12 @@
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "dist/global/ios-swift/",
+      "buildPath": "dist/ios-swift/",
       "files": [{
         "destination": "StyleDictionary.swift",
         "format": "ios-swift/class.swift",
         "className": "StyleDictionary",
         "filter": {}
-      }]
-    },
-    "ios-swift-separate-enums": {
-      "transformGroup": "ios-swift-separate",
-      "buildPath": "dist/global/ios-swift/",
-      "files": [{
-        "destination": "StyleDictionaryColor.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionaryColor",
-        "filter": {
-          "attributes": {
-            "category": "color"
-          }
-        }
-      },{
-        "destination": "StyleDictionarySize.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "attributes": {
-            "category": "size"
-          }
-        }
       }]
     }
   }
