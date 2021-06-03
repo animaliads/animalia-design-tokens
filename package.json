@@ -23,6 +23,6 @@
     "gulp-postcss": "^9.0.0",
     "gulp-tap": "^2.0.0",
     "lodash": "^4.17.20",
-    "style-dictionary": "^2.10.2"
+    "style-dictionary": "^3.0.0"
   }
 }
