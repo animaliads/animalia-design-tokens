@@ -1,19 +1,27 @@
 {
   "name": "@animaliads/design-tokens",
-  "version": "1.0.0-next.1",
+  "version": "1.0.0-dev.4",
   "description": "Repositório de Design Tokens do Animalia DS",
   "main": "build.js",
   "tag": "dev",
   "scripts": {
     "build": "gulp",
-    "publish:android": "npm publish dist/android",
-    "publish:css": "npm publish dist/css",
-    "publish:ios": "npm publish dist/ios",
-    "publish:ios-swift": "npm publish dist/ios-swift",
-    "publish:scss": "npm publish dist/scss",
+    "publish:android": "npm publish ./dist/android",
+    "publish:css": "npm publish ./dist/css",
+    "publish:ios": "npm publish ./dist/ios",
+    "publish:ios-swift": "npm publish ./dist/ios-swift",
+    "publish:scss": "npm publish ./dist/scss",
     "publish:all": "npm run publish:android && npm run publish:css && npm run publish:ios && npm run publish:ios-swift && npm run publish:scss"
   },
-  "author": "",
+  "author": "Animalia Design System",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animaliads/animalia-design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/animaliads/animalia-design-tokens/issues"
+  },
+  "homepage": "https://github.com/animaliads/animalia-design-tokens#readme",
   "license": "MIT",
   "devDependencies": {
     "cssnano": "^4.1.10",
