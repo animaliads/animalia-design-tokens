@@ -3,34 +3,34 @@
     "auto": {
       "value": "auto"
     },
-    "sp1": {
+    "1": {
       "value": "0.15em"
     },
-    "sp2": {
+    "2": {
       "value": "0.25em"
     },
-    "sp3": {
+    "3": {
       "value": "0.5em"
     },
-    "sp4": {
+    "4": {
       "value": "1.25em"
     },
-    "sp5": {
+    "5": {
       "value": "1.5em"
     },
-    "sp-neg-1": {
+    "neg-1": {
       "value": "-0.15em"
     },
-    "sp-neg-2": {
+    "neg-2": {
       "value": "-0.25em"
     },
-    "sp-neg-3": {
+    "neg-3": {
       "value": "-0.5em"
     },
-    "sp-neg-4": {
+    "neg-4": {
       "value": "-1.25em"
     },
-    "sp-neg-5": {
+    "neg-5": {
       "value": "-1.5em"
     }
   }
