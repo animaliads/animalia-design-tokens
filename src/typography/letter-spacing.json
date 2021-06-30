@@ -4,34 +4,34 @@
       "value": "auto"
     },
     "1": {
-      "value": "0.15em"
+      "value": "0.015em"
     },
     "2": {
-      "value": "0.25em"
+      "value": "0.025em"
     },
     "3": {
-      "value": "0.5em"
+      "value": "0.05em"
     },
     "4": {
-      "value": "1.25em"
+      "value": "0.075em"
     },
     "5": {
-      "value": "1.5em"
+      "value": "0.1em"
     },
     "neg-1": {
-      "value": "-0.15em"
+      "value": "-0.015em"
     },
     "neg-2": {
-      "value": "-0.25em"
+      "value": "-0.025em"
     },
     "neg-3": {
-      "value": "-0.5em"
+      "value": "-0.05em"
     },
     "neg-4": {
-      "value": "-1.25em"
+      "value": "-0.075em"
     },
     "neg-5": {
-      "value": "-1.5em"
+      "value": "-0.1em"
     }
   }
 }
